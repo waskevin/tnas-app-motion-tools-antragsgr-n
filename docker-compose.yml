@@ -1,0 +1,6 @@
+services:
+  motion-tools-antragsgr-n:
+    image: tobiashoessl/antragsgruen:latest
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
